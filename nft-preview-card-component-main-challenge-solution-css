@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%)    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    margin: 300px auto 300px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 3.5%;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    margin: 20px auto 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;  
+    margin: 20px 0 20px 20px;  
+}
+
+.main{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    margin: 0 0 20px 20px;
+}
+
+.meta{
+    display:flex;
+    justify-content: space-between;
+    font-size: 16px;
+    margin: 0 20px;
+}
+
+.diamond{
+    display: flex;
+}
+
+.meta p{
+    color:hsl(178, 100%, 50%);
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-left: 6px;
+}
+
+.clock{
+    display: flex;
+    color: hsl(215, 51%, 70%);
+    
+}
+
+.clock img{
+    height: 19px;
+    width: 19px;
+    
+}
+
+.clock span{
+    padding-left: 7px;
+}
+
+hr{
+    width: 300px;
+    height: 1px;
+    margin: 0 25px;
+    background-color: hsl(215, 32%, 27%);
+    border: none;
+    margin-bottom: 10px;
+}
+
+.footer{
+    display: flex;
+    margin-bottom: 26px;
+    margin-left: 23px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+    border: white 1px solid;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.footer p{
+    margin-top: 5px;
+    padding-left: 13px;
+    color: hsl(215, 51%, 70%) ;
+    font-weight: 300;
+}
+
+.footer p span{
+    color: hsl(0, 0%, 100%);
+}
